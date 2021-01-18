@@ -1,0 +1,1 @@
+!function(){const e=()=>{window.scrollTo(0,document.body.scrollHeight)},o=()=>{document.querySelectorAll("[data-et-name=follow_user]").forEach(e=>e.click())};e(),o(),window.setInterval(e,1e4),window.setInterval(o,25e3)}();
