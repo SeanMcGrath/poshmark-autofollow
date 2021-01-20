@@ -1,1 +1,1 @@
-pbpaste
+!function(){const e=()=>{window.scrollTo(0,document.body.scrollHeight-600),setTimeout(o,5e3)},o=()=>{const o=document.querySelectorAll("[data-et-name=follow_user]"),t=o.length;for(let e=0;e<1;e++){setTimeout(()=>o[e].click(),500*e)}setTimeout(e,500*t)};o()}();
