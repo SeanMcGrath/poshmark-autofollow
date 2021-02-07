@@ -1,1 +1,1 @@
-!function(){const e=()=>{window.scrollTo(0,document.body.scrollHeight-600),setTimeout(o,5e3)},o=()=>{const o=document.querySelectorAll("[data-et-name=follow_user]"),t=o.length;for(let e=0;e<1;e++){setTimeout(()=>o[e].click(),500*e)}setTimeout(e,500*t)};o()}();
+!function(){const e=()=>{window.scrollTo(0,document.body.scrollHeight-600),setTimeout(t,5e3)},t=()=>{const t=document.querySelectorAll("[data-et-name=follow_user]"),o=t.length;for(let e=0;e<o;e++){let o=500*e,l=t[e];setTimeout(()=>{l.click()},o)}setTimeout(e,500*o)};t()}();

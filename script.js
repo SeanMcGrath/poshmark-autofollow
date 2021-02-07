@@ -17,9 +17,13 @@
 		const numButtons = followButtons.length
 
 		// set up clicks for all the buttons after appropriate delays
-		for (let i = 0; i < 1; i++) {
+		for (let i = 0; i < numButtons; i++) {
 			let delay = i * clickDelta;
-			setTimeout(() => followButtons[i].click(), delay)
+			let button = followButtons[i];
+			setTimeout(() => {
+				console.log(button);
+				button.click();
+			}, delay);
 		}
 
 		// set up another scroll-down cycle
